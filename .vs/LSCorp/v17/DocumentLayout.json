@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer\\source\\repos\\LSCorp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|c:\\users\\acer\\source\\repos\\lscorp\\user-project.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|solutionrelative:user-project.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|C:\\Users\\Acer\\source\\repos\\LSCorp\\project-milestone.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|solutionrelative:project-milestone.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|C:\\Users\\Acer\\source\\repos\\LSCorp\\task.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|solutionrelative:task.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|C:\\Users\\Acer\\source\\repos\\LSCorp\\project.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|solutionrelative:project.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|C:\\Users\\Acer\\source\\repos\\LSCorp\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|solutionrelative:index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|C:\\Users\\Acer\\source\\repos\\LSCorp\\top-performer.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|solutionrelative:top-performer.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|C:\\Users\\Acer\\source\\repos\\LSCorp\\user-project-bridge.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|solutionrelative:user-project-bridge.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|C:\\Users\\Acer\\source\\repos\\LSCorp\\subtask.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|solutionrelative:subtask.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|C:\\Users\\Acer\\source\\repos\\LSCorp\\user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|solutionrelative:user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|C:\\Users\\Acer\\source\\repos\\LSCorp\\user-project-task-bridge.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|solutionrelative:user-project-task-bridge.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|C:\\Users\\Acer\\source\\repos\\LSCorp\\milestone.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D7050580-C74F-4327-BFBB-11F380F6DC3C}|LSCorp.csproj|solutionrelative:milestone.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.aspx",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\LSCorp\\index.aspx",
+              "RelativeDocumentMoniker": "index.aspx",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\LSCorp\\index.aspx",
+              "RelativeToolTip": "index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-13T19:21:25.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "user.aspx",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\LSCorp\\user.aspx",
+              "RelativeDocumentMoniker": "user.aspx",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\LSCorp\\user.aspx",
+              "RelativeToolTip": "user.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-05T13:41:39.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "task.aspx",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\LSCorp\\task.aspx",
+              "RelativeDocumentMoniker": "task.aspx",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\LSCorp\\task.aspx",
+              "RelativeToolTip": "task.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-05T14:12:36.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "user-project.aspx",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\LSCorp\\user-project.aspx",
+              "RelativeDocumentMoniker": "user-project.aspx",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\LSCorp\\user-project.aspx",
+              "RelativeToolTip": "user-project.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-05T14:59:32.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "project-milestone.aspx",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\LSCorp\\project-milestone.aspx",
+              "RelativeDocumentMoniker": "project-milestone.aspx",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\LSCorp\\project-milestone.aspx",
+              "RelativeToolTip": "project-milestone.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-05T15:59:40.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "milestone.aspx",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\LSCorp\\milestone.aspx",
+              "RelativeDocumentMoniker": "milestone.aspx",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\LSCorp\\milestone.aspx",
+              "RelativeToolTip": "milestone.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-05T14:52:06.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "top-performer.aspx",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\LSCorp\\top-performer.aspx",
+              "RelativeDocumentMoniker": "top-performer.aspx",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\LSCorp\\top-performer.aspx",
+              "RelativeToolTip": "top-performer.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-13T16:12:43.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "project.aspx",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\LSCorp\\project.aspx",
+              "RelativeDocumentMoniker": "project.aspx",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\LSCorp\\project.aspx",
+              "RelativeToolTip": "project.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-05T14:09:53.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "user-project-bridge.aspx",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\LSCorp\\user-project-bridge.aspx",
+              "RelativeDocumentMoniker": "user-project-bridge.aspx",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\LSCorp\\user-project-bridge.aspx",
+              "RelativeToolTip": "user-project-bridge.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-13T17:29:12.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "subtask.aspx",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\LSCorp\\subtask.aspx",
+              "RelativeDocumentMoniker": "subtask.aspx",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\LSCorp\\subtask.aspx",
+              "RelativeToolTip": "subtask.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-05T14:23:24.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "user-project-task-bridge.aspx",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\LSCorp\\user-project-task-bridge.aspx",
+              "RelativeDocumentMoniker": "user-project-task-bridge.aspx",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\LSCorp\\user-project-task-bridge.aspx",
+              "RelativeToolTip": "user-project-task-bridge.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-13T18:14:38.463Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
