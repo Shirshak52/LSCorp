@@ -1,38 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="project-milestone.aspx.cs" Inherits="LSCorp.project_milestone" %>
+﻿<%@ Page Title="LSCorp - Project Milestone" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" %>
 
-<!DOCTYPE html>
-<head runat="server">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LSCorp - Project-Milestone</title>
-
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="py-10 pt-20 bg-gray-100 flex flex-col items-center justify-center">
-
-    <!-- Navbar -->
-    <nav class="bg-yellow-500 p-4 text-white w-full shadow-lg fixed top-0 z-50">
-        <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">LSCorp</h1>
-            <ul class="grid grid-cols-4">
-                <li><a href="index.aspx" class="hover:underline">Home</a></li>
-                <li><a href="user.aspx" class="hover:underline">User</a></li>
-                <li><a href="project.aspx" class="hover:underline">Project</a></li>
-                <li><a href="task.aspx" class="hover:underline">Task</a></li>
-                <li><a href="subtask.aspx" class="hover:underline">Subtask</a></li>
-                <li><a href="milestone.aspx" class="hover:underline">Milestone</a></li>
-                <li><a href="user-project.aspx" class="hover:underline">User Project</a></li>
-                <li><a href="user-project-bridge.aspx" class="hover:underline">User Project Bridge</a></li>
-                <li><a href="project-milestone.aspx" class="hover:underline">Project Milestone</a></li>
-                <li><a href="top-performer.aspx" class="hover:underline">Top Performer</a></li>
-                <li><a href="user-project-task-bridge.aspx" class="hover:underline">User Project Task Bridge</a></li>
-            </ul>
-        </div>
-    </nav>
-
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server" >
     <form id="form1" runat="server" class="container mt-10 p-6 bg-white shadow-lg rounded-lg">
         <div>
 
@@ -69,5 +37,4 @@
         </div>
         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;ID&quot;, &quot;NAME&quot; FROM &quot;PROJECTS&quot;"></asp:SqlDataSource>
     </form>
-</body>
-</html>
+</asp:Content>
