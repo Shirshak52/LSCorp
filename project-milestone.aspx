@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="LSCorp - Project Milestone" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server" >
-    <form id="form1" runat="server" class="container mt-10 p-6 bg-white shadow-lg rounded-lg">
-        <div>
+    <form id="form1" runat="server" class="container h-screen p-6 bg-white shadow-lg rounded-lg">
+        <div class="flex flex-col items-center w-full">
 
             <h2 class="text-xl font-semibold mb-4">Milestone Details of Each Project</h2>
 
@@ -21,7 +21,7 @@
             </asp:SqlDataSource>
 
             <!-- Grid View -->
-            <div class="max-h-[350px] overflow-x-auto overflow-y-auto mt-4">
+            <div class="w-full max-h-[350px] overflow-x-auto overflow-y-auto mt-4">
                 <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" CssClass="w-full border border-gray-300 rounded-lg bg-white shadow text-center">
                     <RowStyle CssClass="bg-gray-100 hover:bg-gray-200 p-4" />
                     <Columns>

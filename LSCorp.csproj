@@ -81,6 +81,7 @@
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -104,7 +105,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.aspx" />
+    <Content Include="dashboard.aspx" />
     <Content Include="milestone.aspx" />
     <Content Include="project-milestone.aspx" />
     <Content Include="project.aspx" />
@@ -118,6 +119,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dashboard.aspx.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dashboard.aspx.designer.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="milestone.aspx.cs">
       <DependentUpon>milestone.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

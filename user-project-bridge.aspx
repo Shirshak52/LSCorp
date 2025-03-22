@@ -2,11 +2,11 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server" >
 
-    <form id="form1" runat="server" class="container mt-10 p-6 bg-white shadow-lg rounded-lg">
+    <form id="form1" runat="server" class="flex flex-col items-center container p-6 bg-white shadow-lg rounded-lg">
         <h2 class="text-xl font-semibold mb-4">Users and Assigned Projects</h2>
 
         <!-- Grid View -->
-        <div class="max-h-[350px] overflow-x-auto overflow-y-auto">
+        <div class="w-full max-h-[420px] overflow-x-auto overflow-y-auto">
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="USERS_ID,PROJECTS_ID" DataSourceID="SqlDataSource1" CssClass="w-full border border-gray-300 rounded-lg bg-white shadow text-center">
                 <RowStyle CssClass="bg-gray-100 hover:bg-gray-200 p-4" />
                 <Columns>
