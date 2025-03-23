@@ -42,7 +42,7 @@
                     </asp:TemplateField>
                 </Columns>
             </asp:GridView>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM &quot;MILESTONES&quot; WHERE &quot;ID&quot; = :ID" InsertCommand="INSERT INTO &quot;MILESTONES&quot; (&quot;ID&quot;, &quot;NAME&quot;, &quot;STATUS&quot;, &quot;PROJECTS_ID&quot;) VALUES (:ID, :NAME, :STATUS, :PROJECTS_ID)" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;ID&quot;, &quot;NAME&quot;, &quot;STATUS&quot;, &quot;PROJECTS_ID&quot; FROM &quot;MILESTONES&quot;" UpdateCommand="UPDATE &quot;MILESTONES&quot; SET &quot;NAME&quot; = :NAME, &quot;STATUS&quot; = :STATUS, &quot;PROJECTS_ID&quot; = :PROJECTS_ID WHERE &quot;ID&quot; = :ID">
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM &quot;MILESTONES&quot; WHERE &quot;ID&quot; = :ID" InsertCommand="INSERT INTO &quot;MILESTONES&quot; (&quot;ID&quot;, &quot;NAME&quot;, &quot;STATUS&quot;, &quot;PROJECTS_ID&quot;) VALUES (:ID, :NAME, :STATUS, :PROJECTS_ID)" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;ID&quot;, &quot;NAME&quot;, &quot;STATUS&quot;, &quot;PROJECTS_ID&quot; FROM &quot;MILESTONES&quot; order by id" UpdateCommand="UPDATE &quot;MILESTONES&quot; SET &quot;NAME&quot; = :NAME, &quot;STATUS&quot; = :STATUS, &quot;PROJECTS_ID&quot; = :PROJECTS_ID WHERE &quot;ID&quot; = :ID">
                 <DeleteParameters>
                     <asp:Parameter Name="ID" Type="Decimal" />
                 </DeleteParameters>

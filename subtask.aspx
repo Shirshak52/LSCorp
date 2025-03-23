@@ -99,10 +99,10 @@
                         </div>
                         <div>
                             <label class="block text-sm font-medium">User:</label>
-                            <asp:DropDownList ID="DropDownList2" runat="server" CssClass="w-full p-2 border rounded bg-white" DataSourceID="SqlDataSource2" DataTextField="FIRST_NAME" DataValueField="ID" SelectedValue='<%# Bind("USERS_ID") %>'>
+                            <asp:DropDownList ID="DropDownList2" runat="server" CssClass="w-full p-2 border rounded bg-white" DataSourceID="SqlDataSource2" DataTextField="User Full Name" DataValueField="ID" SelectedValue='<%# Bind("USERS_ID") %>'>
                             </asp:DropDownList>
                     
-                            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM &quot;USERS&quot; WHERE &quot;ID&quot; = :ID" InsertCommand="INSERT INTO &quot;USERS&quot; (&quot;ID&quot;, &quot;FIRST_NAME&quot;, &quot;LAST_NAME&quot;) VALUES (:ID, :FIRST_NAME, :LAST_NAME)" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;ID&quot;, &quot;FIRST_NAME&quot;, &quot;LAST_NAME&quot; FROM &quot;USERS&quot;" UpdateCommand="UPDATE &quot;USERS&quot; SET &quot;FIRST_NAME&quot; = :FIRST_NAME, &quot;LAST_NAME&quot; = :LAST_NAME WHERE &quot;ID&quot; = :ID">
+                            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM &quot;USERS&quot; WHERE &quot;ID&quot; = :ID" InsertCommand="INSERT INTO &quot;USERS&quot; (&quot;ID&quot;, &quot;FIRST_NAME&quot;, &quot;LAST_NAME&quot;) VALUES (:ID, :FIRST_NAME, :LAST_NAME)" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT &quot;ID&quot;, &quot;FIRST_NAME&quot; || ' ' || &quot;LAST_NAME&quot; &quot;User Full Name&quot; FROM &quot;USERS&quot;" UpdateCommand="UPDATE &quot;USERS&quot; SET &quot;FIRST_NAME&quot; = :FIRST_NAME, &quot;LAST_NAME&quot; = :LAST_NAME WHERE &quot;ID&quot; = :ID">
                                 <DeleteParameters>
                                     <asp:Parameter Name="ID" Type="Decimal" />
                                 </DeleteParameters>
